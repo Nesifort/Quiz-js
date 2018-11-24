@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="#">
+    
+    </head>
+
+    <body>
+        
+    <!--Questions for quiz-->    
+        <script type="text/javascript">
+            
+            var score;
+            score = 0;
+            
+            alert("Welcome to the Quiz")
+            
+            
+            var q1;
+            q1 = prompt("What is the capital of the United States?")
+            if(q1 == "Washington DC") {
+                score++;
+                alert("Correct! Your score is: " + score)
+            }
+            
+            else {
+                alert("Wrong! Your score is: " + score)
+            }
+            
+            var q2;
+            q2 = prompt("How many states are in the United States?")
+            if(q2 == "50") {
+                score++;
+                alert("Correct! Your score is: " + score)
+            }
+            
+            else {
+                alert("Wrong! Your score is: " + score)
+            }
+            
+            var q3;
+            q3 = prompt("What is the biggest state in the US?")
+            if(q3 == "Texas") {
+                score++;
+                alert("Correct! Your score is: " + score)
+            }
+            
+            else {
+                alert("Wrong! Your score is: " + score)
+            }
+            
+            var q4;
+            q4 = prompt("Who is the president?")
+            if(q4 == "Donald Trump") {
+                score++;
+                alert("Correct! Your score is: " + score)
+            }
+            
+            else {
+                alert("Wrong! Your score is: " + score)
+            }
+            
+            
+            
+            
+            if (score == 5) {
+                alert("Your score is: " +score" and You Won!")
+            }
+            
+            else {
+                alert("Your score is: "+score". Try again!)
+            }
+                
+            
+        
+        
+        
+        
+        </script>
+    
+    </body>
+
+</html>
